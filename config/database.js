@@ -1,4 +1,4 @@
-module.exports = ({ env }) => ({
+/* module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
     default: {
@@ -9,6 +9,26 @@ module.exports = ({ env }) => ({
       },
       options: {
         useNullAsDefault: true,
+      },
+    },
+  },
+}); */
+
+module.exports = ({ env }) => ({
+  defaultConnection: 'default',
+  connections: {
+    default: {
+      connector: 'bookshelf',
+      settings: {
+        client: 'postgress',
+        host: env('DATABASE_HOST', '127.0.0.1'),
+        port: env.int('DATABASE_PORT', 27017),
+        database: env('DATABASE_NAME', 'strapi'),
+        username: env('DATABASE_USERNAME', ''),
+        password: env('DATABASE_PASSWORD', ''),
+      },
+      options: {
+        ssl: false
       },
     },
   },
