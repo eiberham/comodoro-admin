@@ -9,13 +9,17 @@
     "timestamps": true
   },
   "attributes": {
-    "posts": {
-      "via": "categories",
-      "collection": "post",
-      "dominant": true
-    },
     "name": {
       "type": "string"
+    },
+    "subcategories": {
+      "collection": "subcategory",
+      "via": "categories",
+      "dominant": true
+    },
+    "post": {
+      "model": "post",
+      "via": "category"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcategory",
+  "info": {
+    "name": "Subcategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "atractivos": {
+      "columnName": "atractivos",
+      "model": "atractivos"
+    },
+    "categories": {
+      "via": "subcategories",
+      "collection": "category"
+    }
+  }
+}

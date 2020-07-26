@@ -26,9 +26,9 @@
       "plugin": "upload",
       "required": true
     },
-    "categories": {
-      "collection": "category",
-      "via": "posts"
+    "category": {
+      "via": "post",
+      "model": "category"
     },
     "email": {
       "type": "email",
@@ -46,6 +46,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "location": {
+      "type": "string",
+      "unique": true
     }
   }
 }

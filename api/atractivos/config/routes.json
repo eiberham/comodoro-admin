@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/atractivos",
+      "handler": "atractivos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/atractivos/count",
+      "handler": "atractivos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/atractivos/:id",
+      "handler": "atractivos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/atractivos",
+      "handler": "atractivos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/atractivos/:id",
+      "handler": "atractivos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/atractivos/:id",
+      "handler": "atractivos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

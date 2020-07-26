@@ -2,9 +2,9 @@ module.exports = ({ env }) => ({
     upload: {
       provider: 'cloudinary',
       providerOptions: {
-        cloud_name: 'comodoro',
-        api_key: '971956325637768',
-        api_secret: 'PBxzWhMXyNxZVoNhuGBWIIRBQfM',
+        cloud_name: env('CLOUDINARY_NAME'),
+        api_key: env('CLOUDINARY_KEY'),
+        api_secret: env('CLOUDINARY_SECRET'),
       },
     },
   });
