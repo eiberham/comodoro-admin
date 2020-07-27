@@ -26,9 +26,9 @@
       "plugin": "upload",
       "required": true
     },
-    "category": {
-      "via": "post",
-      "model": "category"
+    "subcategory": {
+      "model": "subcategory",
+      "via": "post"
     },
     "email": {
       "type": "email",
