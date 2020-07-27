@@ -12,14 +12,9 @@
     "name": {
       "type": "string"
     },
-    "subcategories": {
-      "collection": "subcategory",
-      "via": "categories",
-      "dominant": true
-    },
-    "post": {
-      "model": "post",
-      "via": "category"
+    "subcategory": {
+      "via": "category",
+      "model": "subcategory"
     }
   }
 }

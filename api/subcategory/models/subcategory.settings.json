@@ -16,9 +16,13 @@
       "columnName": "atractivos",
       "model": "atractivos"
     },
-    "categories": {
-      "via": "subcategories",
-      "collection": "category"
+    "category": {
+      "model": "category",
+      "via": "subcategory"
+    },
+    "post": {
+      "via": "subcategory",
+      "model": "post"
     }
   }
 }
