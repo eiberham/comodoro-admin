@@ -9,12 +9,8 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "caption": {
       "type": "string"
-    },
-    "subcategory": {
-      "via": "category",
-      "model": "subcategory"
     }
   }
 }
