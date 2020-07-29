@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "category",
+  "collectionName": "menus",
   "info": {
-    "name": "Category"
+    "name": "Menu"
   },
   "options": {
     "increments": true,
