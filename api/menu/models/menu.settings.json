@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "Menu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.category"
+    }
+  }
+}
