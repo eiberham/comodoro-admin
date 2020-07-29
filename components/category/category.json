@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_category_categories",
+  "info": {
+    "name": "Category",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "model": "category"
+    },
+    "subcategory": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcategory.subcategory"
+    }
+  }
+}

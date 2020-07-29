@@ -11,6 +11,11 @@
   "attributes": {
     "caption": {
       "type": "string"
+    },
+    "Category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.category"
     }
   }
 }
