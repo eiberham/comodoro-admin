@@ -13,29 +13,12 @@
       "type": "string",
       "required": true
     },
-    "content": {
+    "description": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
-    "image": {
+    "images": {
       "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true
-    },
-    "email": {
-      "type": "email",
-      "unique": true
-    },
-    "phone": {
-      "type": "biginteger",
-      "unique": true
-    },
-    "gallery": {
-      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -43,9 +26,44 @@
       "plugin": "upload",
       "required": false
     },
-    "location": {
+    "address": {
       "type": "string",
-      "unique": true
+      "unique": false
+    },
+    "promoted_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "icon": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "website": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
     }
   }
 }
