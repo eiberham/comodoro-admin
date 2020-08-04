@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_category_categories",
+  "info": {
+    "name": "category",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "children.children"
+    }
+  }
+}

@@ -64,6 +64,11 @@
     },
     "twitter": {
       "type": "string"
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.category"
     }
   }
 }
