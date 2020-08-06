@@ -5,5 +5,9 @@
     "icon": "baby-carriage"
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    }
+  }
 }
