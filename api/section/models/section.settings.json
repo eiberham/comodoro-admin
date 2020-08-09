@@ -28,6 +28,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "categories": {
+      "collection": "category"
     }
   }
 }
