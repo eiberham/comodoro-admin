@@ -28,6 +28,11 @@
     },
     "icon": {
       "type": "string"
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.children"
     }
   }
 }
