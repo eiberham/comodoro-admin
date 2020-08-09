@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_category_children",
+  "info": {
+    "name": "children",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    }
+  }
+}
