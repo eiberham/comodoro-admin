@@ -31,7 +31,7 @@
     },
     "children": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "category.children"
     }
   }
