@@ -67,6 +67,9 @@
     },
     "categories": {
       "collection": "category"
+    },
+    "coordinates": {
+      "type": "string"
     }
   }
 }
