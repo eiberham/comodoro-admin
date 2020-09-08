@@ -70,6 +70,15 @@
     },
     "coordinates": {
       "type": "string"
+    },
+    "whatsapp": {
+      "type": "biginteger"
+    },
+    "date": {
+      "type": "date"
+    },
+    "mail": {
+      "type": "email"
     }
   }
 }
